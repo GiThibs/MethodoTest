@@ -1,0 +1,7 @@
+$colorbase: blue;  
+$colorbase_comp: complement($colorbase);
+$colorbase_light: lighten($colorbase, 20);
+$colorbase_dark: darken($colorbase, 20);
+
+$m_breakpoint: 700px;
+$t_breakpoint: 1024px;

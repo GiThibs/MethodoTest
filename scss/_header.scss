@@ -1,0 +1,8 @@
+header {
+    background-color: $colorbase;
+    height: 100px;
+    width: 100px;
+    @include desktopView($m_breakpoint) {
+        background-color: cyan;
+    }
+}
